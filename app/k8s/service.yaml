@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: student-score-service
 spec:
-  type: Loadbalancer
+  type: LoadBalancer
   selector:
     app: student-score
   ports:
